@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    font-size: 16px;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: aliceblue;
+    padding: 6%;
+}
+
+.header > h1 {
+    color: hsl(179, 62%, 43%);
+    margin: 0;
+}
+.header > h3 {
+    color: hsl(71, 73%, 54%);
+    
+}
+
+.two-blocks-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: hsl(204, 8%, 48%);
+    font-weight: 400;
+}
+
+.two-rows > p {
+    margin: 0;
+}
+
+.block-1 {
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    width: 50%;
+    background: hsl(179, 62%, 43%);
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.block-1 > h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5%;
+}
+.block-1 > p {
+    margin: 0;
+}
+
+
+.block-1 > button {
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    color: rgb(241, 235, 227);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px;
+    
+}
+
+
+
+.price-container {
+    margin-bottom: 2%;
+
+}
+.price-container > p {
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    font-size: 32px;
+    gap: 8px;
+    margin: 0;
+}
+
+.price-container > p > :first-child {
+    position: static;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+
+.block-2 {
+    background: hsl(179, 52%, 54%);
+    color: aliceblue;
+    padding: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;
+
+}
+
+.block-2 > p {
+    margin: 0;
+}
+
+.block-2 > h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-device-width: 320px){
+    
+}
